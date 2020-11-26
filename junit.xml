@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="TS20181008012" name="pytest" skipped="0" tests="3" time="0.071" timestamp="2020-11-24T17:49:40.605946"><testcase classname="hello" name="test_answer" time="0.001" /><testcase classname="hello.Testa" name="test_demo_1" time="0.001"><failure message="assert 2 == 3&#10; +  where 2 = inc(1)">self = &lt;hello.Testa object at 0x00000269A048C198&gt;
+
+    def test_demo_1(self):
+&gt;       assert inc(1) == 3
+E       assert 2 == 3
+E        +  where 2 = inc(1)
+
+hello.py:11: AssertionError</failure></testcase><testcase classname="hello.Testa" name="test_demo_2" time="0.001"><failure message="assert not 3 != 4&#10; +  where 3 = inc(2)">self = &lt;hello.Testa object at 0x00000269A048CB00&gt;
+
+    def test_demo_2(self):
+&gt;       assert not inc(2) != 4
+E       assert not 3 != 4
+E        +  where 3 = inc(2)
+
+hello.py:14: AssertionError</failure></testcase></testsuite></testsuites>
